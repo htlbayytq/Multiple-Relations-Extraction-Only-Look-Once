@@ -4,8 +4,6 @@ import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../bert")))
 import tokenization
 
-print("if not have raw data, please dowload data from http://lic2019.ccf.org.cn/kg !")
-
 def unzip_and_move_files():
     "解压原始文件并且放入 raw_data 文件夹下面"
     os.system("unzip dev_data.json.zip")
