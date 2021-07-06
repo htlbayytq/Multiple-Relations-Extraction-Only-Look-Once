@@ -199,7 +199,7 @@ class Model_data_preparation(object):
 if __name__ == "__main__":
     RAW_DATA_DIR = "raw_data"
     DATA_OUTPUT_DIR = "standard_format_data"
-    Competition_Mode = False
+    Competition_Mode = True
     Valid_Mode = False
     model_data = Model_data_preparation(
         RAW_DATA_INPUT_DIR=RAW_DATA_DIR, DATA_OUTPUT_DIR=DATA_OUTPUT_DIR, Competition_Mode=Competition_Mode, Valid_Model=Valid_Mode)
